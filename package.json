@@ -1,0 +1,16 @@
+{
+  "name": "tile-builder",
+  "version": "1.0.0",
+  "description": "\"Build static vector tile trees from geojson\"",
+  "main": "tilesFromGeojson.js",
+  "scripts": {
+    "build": "node ./tilesFromGeojson.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "geojson2mvt": "0.0.3"
+  }
+}
