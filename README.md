@@ -26,7 +26,7 @@ To build tile trees for specific data sources only--data that was just acquired,
 
 You will see the tile building process being logged in the terminal. The number of tiles created depends on the options set in `options.json`.
 
-Tiles will be saved in `/static_tiles/{dataset}/{z}/{x}/{y}.mvt`. The `./static_tiles` directory is created the first time the script is run. `dataset` is the name of the dataset, such as `bus_stops`. The rest of the folder structure defines the zoom level and xy position for each tile.
+Tiles will be saved in `./static_tiles/{dataset}/{z}/{x}/{y}.mvt`. The `./static_tiles` directory is created the first time the script is run. `dataset` is the name of the dataset, such as `bus_stops`. The rest of the folder structure defines the zoom level and xy position for each tile.
 
 #### Within the Capital Planning Platform
 This repo and the tilesets the script generates live on the server alongside Docker containers for the Capital Planning Platform application and API. To use this tool for building static vector tiles to be used by the platform, **ADD STEPS HERE...** 
