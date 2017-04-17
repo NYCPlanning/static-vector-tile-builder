@@ -20,7 +20,7 @@ To build vector tile trees for all data sources in `./source_data`, run:
 
 `npm run build`
 
-To build tile trees for specific data sources only--data that was just acquired, for example--add the name(s) of the geojson file(s) as arguments. You can pass as many of these data source arguments as you like.
+This will run the `tile-builder.js` script. To build tile trees for specific data sources only--data that was just acquired, for example--add the name(s) of the geojson file(s) as arguments. You can pass as many of these data source arguments as you like.
 
 `npm run build bus_routes bus_stops`
 
