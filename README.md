@@ -1,4 +1,4 @@
-# tile-builder
+# static-vector-tile-builder
 A tool for generating vector tile pyramids from geojson data.
 
 ### Background
@@ -32,4 +32,4 @@ Tiles will be saved in `./static_tiles/{dataset}/{z}/{x}/{y}.mvt`. The `./static
 This repo and the tilesets the script generates live on the server alongside Docker containers for the Capital Planning Platform application and API. To use this tool for building static vector tiles to be used by the platform, **ADD STEPS HERE...** 
 
 ### TODO
-In the future, it may be useful to allow for external data sources (URLs to geojson and possibly other data types). The source for each map layer could be defined in a config.
+In the future, it may be useful to allow for external data sources, such as URLs pointing to geojson and possibly other data types. The source for each map layer could be defined in a config.
